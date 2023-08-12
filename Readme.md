@@ -19,5 +19,88 @@ Generative design laptop stand link: https://www.thingiverse.com/thing:6141502
 
 ## Coding project
 
-`python main.py`
+```python
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+from matplotlib import style
+import numpy as np
+import random
+import serial
+
+ser = serial.Serial("/dev/cu.usbserial-1110", 115200, timeout=0.1)   
+
+def readserial():
+
+    if ser.inWaiting()>0:
+        line=ser.readline().decode().strip()
+        return line
+    
+    return None
+
+# Create figure for plotting
+# fig = plt.figure()
+# ax = fig.add_subplot(1, 1, 1)
+fig, ax = plt.subplots()
+ax.set_ylabel('Temperature(ºC)')
+ax2 = ax.twinx()
+ax2.set_ylabel('Humidity(%)',c='r')
+ax2.yaxis.set_label_position('right')
+ax2.yaxis.set_ticks_position('right')
+
+xs = [] #store temp trials here 
+ys = [] #store temp relative frequency here
+
+xh = [] #store humidity trials here 
+yh = [] #store humidity relative frequency here
+
+# This function is called periodically from FuncAnimation
+def animate(i, xs, ys, xh, yh):
+
+    #Aquire and parse data from serial port
+    line = readserial()
+    if line is not None:
+        first_character = line[0]
+        if first_character == 't':
+            tempValue = line[1:]
+            tempValue = float(tempValue)
+            ys.append(tempValue)
+            xs.append(len(ys))
+        elif first_character == 'h':
+            humidValue = line [1:]
+            humidValue = float(humidValue)
+            yh.append(humidValue)
+            xh.append(len(yh))
+
+
+    # Limit x and y lists to 20 items
+    xs = xs[-30:]
+    ys = ys[-30:]
+
+    xh = xh[-30:]
+    yh = yh[-30:]
+
+    # Draw x and y lists
+    ax.clear()
+    ax.plot(xs, ys, label="Data line")
+    ax.set_ylabel('Temperature(ºC)')
+
+    # secondary y-axis
+    ax2.clear()
+    ax2.plot(xh, yh, color='r')
+    ax2.set_ylabel('Humidity(%)',c='r')
+    ax2.tick_params(axis='y', labelcolor='r')
+    ax2.yaxis.set_label_position('right')
+    ax2.yaxis.set_ticks_position('right')
+
+    # Format plot
+    plt.xticks(rotation=45, ha='right')
+    plt.subplots_adjust(bottom=0.30)
+    plt.title('Live data')
+    plt.legend()
+
+# Set up plot to call animate() function periodically
+ani = animation.FuncAnimation(fig, animate, fargs=(xs, ys, xh, yh), interval=20)
+plt.show()
+```
+
 
