@@ -1,6 +1,6 @@
 # Synbiosys Internship
 
-## Generative design- Laptop stand
+## Generative design assignment- Laptop stand
 
 In order to create a laptop stand which can withstand significant force, I began creating many models using generative design. 
 
@@ -17,8 +17,12 @@ When creating designs, the AI was given the objective to minimise the quantity o
 
 Generative design laptop stand link: https://www.thingiverse.com/thing:6141502
 
-## Coding project
+## Programming assignment
 
+
+### Hardware
+
+### Software
 ```python
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
