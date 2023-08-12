@@ -72,7 +72,7 @@ def animate(i, xs, ys, xh, yh):
             xh.append(len(yh))
 
 
-    # Limit x and y lists to 20 items
+    # Limit x and y lists to 30 items
     xs = xs[-30:]
     ys = ys[-30:]
 
