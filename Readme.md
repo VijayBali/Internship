@@ -37,10 +37,17 @@ When creating designs, the AI was given the objective to minimise the quantity o
 ### Prototype 3 v2:
 Generative design laptop stand link: https://www.thingiverse.com/thing:6141502
 
-## Programming assignment
 
+
+
+## Programming assignment
+I was assigned the task of creating a portable device, which when plugged in, would graph the live temperature and humidity on a computer screen. This is in order to notice trends in the data when conducting experiments. 
+To do this, I integrated both hardware and software.
 
 ### Hardware
+For my task, I was given an Arduino Nano microcontroller and an Adafruit AHT20 Temperature and Humidity Sensor. 
+
+
 
 ### Software
 ```python
