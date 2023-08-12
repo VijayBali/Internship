@@ -12,9 +12,29 @@ When creating designs, the AI was given the objective to minimise the quantity o
 ### Prototype 1:
 <img width="400" alt="image" src="https://github.com/VijayBali/Synbiosys-internship/assets/140536734/30c9cbcc-2c7d-4496-b975-b73651173ea6">
 
+#### Strengths of the prototype: 
+- The stand is very strong and can withstand great amounts of compressive force.
+- The prototype is well- supportedand is thus very resistant to bending and torsion from all angles.
+- The extrusion at the bottom of the stand was able to secure the laptop well
+- The length of the stand is able to accommodate a variety of laptop sizes
+
+#### Shortcomings of the prototype:
+- The frame is unnecessarily thick and is a waste of material
+- The prototype is overly narrow and has a small area in contact with the laptop and the ground. This causes it to be unstable.
+- The branches connecting the baseand the platform are frail, as they are long and narrow, and thus, unable to withstand a powerful impact from the side. 
+- The prototype is not very aesthetically appealing and does not fully take advantage of the facinating nature of generative design.
+
+### Prototype 2:
+#### Changes:
+- The laptop stand is wider with both the platform and the base.
+- The base was wider than the platform. This has been done in order to increase stability while preventing unnecessary contact with the base of the laptop, which could reduce the dissipation of heat in the laptop. Additionally, this has been done to create a more interesting prototype. 
+- The generative design programme was given far less constraints, and more space to use in order to create a more facinating design.
+- The unnused area on the base was removed to aesthetically differentiate the product.
 
 
+### Prototype 3:
 
+### Prototype 3 v2:
 Generative design laptop stand link: https://www.thingiverse.com/thing:6141502
 
 ## Programming assignment
