@@ -4,6 +4,7 @@
 
 In order to create a laptop stand which can withstand significant force, I began creating many models using generative design. 
 
+!!!(MENTION HOW 2 ARE USED AS A STAND)
 
 Generative design is an AI-driven approach that uses algorithms to explore and produce innovative design solutions, optimizing for specific criteria. The criteria includes materials, manufacturing techniques, the magnitude and direction of a force acting on the object, the set objectives and more. 
 
@@ -25,10 +26,10 @@ Unfortunately, the product also suffered from certain flaws. Firstly, the frame 
 
 ### Prototype 2:
 #### Changes:
-- The laptop stand is wider with both the platform and the base.
-- The base was wider than the platform. This has been done in order to increase stability while preventing unnecessary contact with the base of the laptop, which could reduce the dissipation of heat in the laptop. Additionally, this has been done to create a more interesting prototype. 
-- The generative design programme was given far less constraints, and more space to use in order to create a more facinating design.
-- The unnused area on the base was removed to aesthetically differentiate the product.
+In order to overcome the flaws of Prototype 1, Prototype 2 has been redesigned with these flaws in mind. 
+The laptop stand is now wider, both in terms of the base and the platform. This being said, the base has been designed to be wider than the platform. This has been done in order to increase stability while preventing unnecessary contact with the base of the laptop, which could reduce the dissipation of heat in the laptop. Additionally, this has been done to create a more interesting prototype. 
+
+In this prototype, the generative design programme was also given far less constraints and more space to use in order to create a more facinating design. The unnused area on the base was removed to aesthetically differentiate the product.
 
 
 ### Prototype 3:
