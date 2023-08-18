@@ -9,20 +9,19 @@ Generative design is an AI-driven approach that uses algorithms to explore and p
 
 When creating designs, the AI was given the objective to minimise the quantity of material used while maintining adequate structural integrity. The weight of the laptop was also applied on each design in the form of Newtons(N).
 
+When evaluating the prototypes, I considered a variety of factors. Firstly, I evaluated stand's ability to withstand forces (e.g. compressive, tensile, torsional, etc.) This included the properties of the materials when withstanding these forces, such as the toughness of the structure (ability to withstand impacts without cracking/breaking) and the hardness of the structure (the abilty to withstand scratching/wear).
+
+I also considered other important factors such as aesthetics, stability, safety (influenced by factors such as the quantity of sharp edges) and ergonomics.
+
 ### Prototype 1:
 <img width="400" alt="image" src="https://github.com/VijayBali/Synbiosys-internship/assets/140536734/30c9cbcc-2c7d-4496-b975-b73651173ea6">
 
-#### Strengths of the prototype: 
-- The stand is very strong and can withstand great amounts of compressive force.
-- The prototype is well- supportedand is thus very resistant to bending and torsion from all angles.
-- The extrusion at the bottom of the stand was able to secure the laptop well
-- The length of the stand is able to accommodate a variety of laptop sizes
+When testing, it was found that the prototype had many benefitial physical properties. 
+Firstly, the stand was very strong and was able to withstand great amounts of compressive force.
+Additionally, the prototype was well- supported and was thus very resistant to bending and torsion from all angles. 
+The length of the stand was also able to accommodate a variety of laptop sizes and the extrusion at the bottom of the stand was able to secure the laptop well.
 
-#### Shortcomings of the prototype:
-- The frame is unnecessarily thick and is a waste of material
-- The prototype is overly narrow and has a small area in contact with the laptop and the ground. This causes it to be unstable.
-- The branches connecting the baseand the platform are frail, as they are long and narrow, and thus, unable to withstand a powerful impact from the side. 
-- The prototype is not very aesthetically appealing and does not fully take advantage of the facinating nature of generative design.
+Unfortunately, the product also suffered from certain flaws. Firstly, the frame was unnecessarily thick, resulting in a wasteful use of materials. Secondly, the prototype was excessively narrow, and had a small area of contact between with the ground, resulting in instability. Additionally, the branches connecting the base and the platform were frail, as they were long and narrow, and thus, unable to withstand a powerful impact from the side. Finally, the prototype was not very aesthetically appealing and did not fully take advantage of the facinating nature of generative design.
 
 ### Prototype 2:
 #### Changes:
